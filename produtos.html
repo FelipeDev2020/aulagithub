@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Loja de Informática</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1e1e2f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .produto {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .produto:hover {
+      transform: scale(1.03);
+    }
+
+    .produto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .produto h3 {
+      margin: 10px 0 5px;
+    }
+
+    .produto p {
+      color: #555;
+      font-size: 14px;
+    }
+
+    .preco {
+      font-size: 18px;
+      color: #27ae60;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    button {
+      margin-top: 10px;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Loja de Informática</h1>
+  <p>Confira nossos produtos</p>
+</header>
+
+<div class="container">
+
+  <div class="produto">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Notebook Gamer</h3>
+    <p>Intel i7, 16GB RAM, RTX 3060</p>
+    <div class="preco">R$ 6.999</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="produto">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Mouse Gamer</h3>
+    <p>RGB, 16000 DPI</p>
+    <div class="preco">R$ 199</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="produto">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Teclado Mecânico</h3>
+    <p>Switch Blue, RGB</p>
+    <div class="preco">R$ 350</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="produto">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Monitor 24"</h3>
+    <p>Full HD, 144Hz</p>
+    <div class="preco">R$ 1.200</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="produto">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>SSD 1TB</h3>
+    <p>NVMe alta velocidade</p>
+    <div class="preco">R$ 450</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="produto">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Placa de Vídeo</h3>
+    <p>RTX 4060 8GB</p>
+    <div class="preco">R$ 2.800</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="produto">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Headset Gamer</h3>
+    <p>Som 7.1, microfone</p>
+    <div class="preco">R$ 250</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="produto">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Cadeira Gamer</h3>
+    <p>Ergonômica, reclinável</p>
+    <div class="preco">R$ 900</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="produto">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Webcam Full HD</h3>
+    <p>1080p com microfone</p>
+    <div class="preco">R$ 180</div>
+    <button>Comprar</button>
+  </div>
+
+  <div class="produto">
+    <img src="https://via.placeholder.com/300x200" alt="">
+    <h3>Fonte 650W</h3>
+    <p>80 Plus Bronze</p>
+    <div class="preco">R$ 320</div>
+    <button>Comprar</button>
+  </div>
+
+</div>
+
+</body>
+</html>
